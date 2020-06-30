@@ -3,69 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript</title>
-
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body>
+    <div class="main">
+        <h1>Calculator</h1>
+        <div>
+            <input id="textarea" class="textarea" type="text">
+        </div>
+            <!-- <button class="btn" onclick="getNumber('7')">7</button>
+            <button class="btn" onclick="getNumber('8')">8</button>
+            <button class="btn" onclick="getNumber('9')">9</button>
+            <button class="btn" onclick="getNumber('*')">*</button> -->
 
-<!-- ch:01 -->
-
-<!-- task:6 and task:7 present -->
-
-   
-
-<!-- <script type="text/JavaScript" >
-
-    alert("Welcome to JavaScript")
-
-    
-
-     </script>       -->
-
-    
-
-<body onload="script">
-
-    <!-- <h1>MY FIRST WEB PAGE</h1>
-
-    <h3>Hellow World</h3>
-
-    <!-- <h2 id="demo"></h2> -->
-
-<!-- <script>
-
-    document.getElementById("demo").innerHTML=5+6;
-
-</script> -->
-
- <!-- <script type="text/JavaScript">
-
-    var a=5
-
-    var b=107
-
-    var c=a+b
-
-    document.write(c); 
-
-</script>-->
-
-
- <script type="text/JavaScript" >
-
-    alert("Welcome to JavaScript")
-
-    
-
-     </script>      
-
-    
-
-
-
+        <div>
+            <input class="btnleft" type="button" onclick="getNumber('7')" value="7">
+            <input class="btn" type="button" onclick="getNumber('8')" value="8">
+            <input class="btn" type="button" onclick="getNumber('9')" value="9">
+            <input class="btn" type="button" onclick="getNumber('/')" value="/">
+        </div>
+        <div>
+            <input class="btnleft" type="button" onclick="getNumber('4')" value="4">
+            <input class="btn" type="button" onclick="getNumber('5')" value="5">
+            <input class="btn" type="button" onclick="getNumber('6')" value="6">
+            <input class="btn" type="button" onclick="getNumber('*')" value="*">
+        </div>
+        <div>
+            <input class="btnleft" type="button" onclick="getNumber('1')" value="1">
+            <input class="btn" type="button" onclick="getNumber('2')" value="2">
+            <input class="btn" type="button" onclick="getNumber('3')" value="3">
+            <input class="btn" type="button" onclick="getNumber('-')" value="-">
+        </div>
+        <div>
+            <input class="btnleft" type="button" onclick="getresult('=')" value="=">
+            <input class="btn" type="button" onclick="getNumber('0')" value="0">
+            <input class="btn" type="button" onclick="cleartextarea('C')" value="C">
+            <input class="btn" type="button" onclick="getNumber('+')" value="+">
+        </div>
+       <span> BY: FARAZ INAM </span>
+    </div>
+</body>
 
 
 <script src="app.js"></script>
-
-</body>
-
 </html>
